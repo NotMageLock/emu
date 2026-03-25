@@ -22,7 +22,7 @@
                 overflow: hidden;
             }
 
-            body, #box, #top {
+            body, #box, #top, #bottom {
                 display: flex;
                 align-items: center;
                 justify-content: center;
@@ -116,7 +116,9 @@
             <input type = file id = input>
             Drag ROM file or click here
         </div>
-        <h1 style="font-size:20px;">magelock.dev is not affiliated with emulatorjs. If you would like to go to the official emulatorjs page, you can head over to <a href="emulatorjs.org/" target="_blank">emulatorjs.org</a></h1>
+        <div id="bottom">
+            <h1 style="font-size:20px;">magelock.dev is not affiliated with emulatorjs. If you would like to go to the official emulatorjs page, you can head over to <a href="emulatorjs.org/" target="_blank">emulatorjs.org</a></h1>
+        </div>
 
         <script>
             let enableDebug = false;
